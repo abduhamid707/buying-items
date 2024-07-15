@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.product {
+  background-image: url('../img/bg.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product .product__container {
+  width: 100%;
+  max-width: 696px;
+  border-radius: 25px;
+  background: white;
+  padding: 35.16px;
+  display: flex;
+  justify-content: space-between;
+}
+.product .product__container .product__image-container {
+  margin-right: 33px;
+}
+.product .product__container .product__image-container img {
+  width: 100%;
+  height: 100%;
+}
+.product .product__container .product__size-selector {
+  margin-top: 66px;
+}
+.product .product__container .product__size-selector .product__size-title {
+  color: #053646;
+  font-family: Inter;
+  font-size: 16.8px;
+  font-weight: 400;
+  line-height: 20.33px;
+  text-align: left;
+}
+.product .product__container .product__size-selector .product__size-options {
+  font-family: Inter;
+  font-size: 24.4px;
+  font-weight: 400;
+  line-height: 29.53px;
+  text-align: left;
+  margin-top: 14px;
+  color: #053646;
+  cursor: pointer;
+}
+.product
+  .product__container
+  .product__size-selector
+  .product__size-options
+  .product__size-option {
+  margin: 0 10px; /* Bu yerda bo'shliqni kengaytirish uchun 10px margin qo'shildi */
+}
+.product
+  .product__container
+  .product__size-selector
+  .product__size-options
+  .product__size-option:nth-child(1) {
+  margin: 0 10px 0 0px;
+}
+
+/* details */
+.product .product__details {
+  width: 35%;
+}
+.product .product__details .product__category {
+  font-family: Inter;
+  font-size: 16.17px;
+  font-weight: 700;
+  line-height: 19.57px;
+  text-align: left;
+  color: #1882ff;
+}
+.product .product__details .product__name {
+  font-family: Inter;
+  font-size: 27.06px;
+  font-weight: 700;
+  line-height: 32.75px;
+  text-align: left;
+  color: black;
+  margin: 6px 0;
+}
+.product .product__details .product__price {
+  font-family: Inter;
+  font-size: 27.06px;
+  font-weight: 700;
+  line-height: 32.75px;
+  text-align: left;
+  color: #1882ff;
+}
+.product .product__details .product__description {
+  font-family: Inter;
+  font-size: 28.81px;
+  font-weight: 300;
+  line-height: 34.86px;
+  text-align: left;
+  color: black;
+}
+.product .product__details .product__button {
+  font-family: Inter;
+  font-size: 25.81px;
+  font-weight: 700;
+  line-height: 34.86px;
+  text-align: left;
+  color: #fff6f6;
+  background: #1882ff;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 17px;
+  margin-top: 13px;
+  cursor: pointer;
+}
